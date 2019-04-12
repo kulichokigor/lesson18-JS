@@ -42,18 +42,18 @@ if(a > 3 && a < 12 || b >= 7 && b < 15){
 
 //Завдання 5
 
-// var mounth =+ prompt('Введите порядковый номер месяца?', '');
-// if (mounth > 0 && mounth <= 2 || mounth === 12 ){
-// 	alert('Зима')
-// } else if(mounth > 2 && mounth <=5){
-// 	alert('Весна')
-// } else if(mounth > 5 && mounth <= 8){
-// 	alert('Лето')
-// } else if(mounth >8 && mounth <=11){
-// 	alert('Осень')
-// } else{
-// 	alert('Не коректный ввод!')
-// };
+var mounth =+ prompt('Введите порядковый номер месяца?', '');
+if (mounth > 0 && mounth <= 2 || mounth === 12 ){
+	alert('Зима')
+} else if(mounth > 2 && mounth <=5){
+	alert('Весна')
+} else if(mounth > 5 && mounth <= 8){
+	alert('Лето')
+} else if(mounth >8 && mounth <=11){
+	alert('Осень')
+} else{
+	alert('Не коректный ввод!')
+};
 
 //Завдання 6
 
